@@ -1,0 +1,207 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  /* height: 10vh; */
+  /* pointer-events: none; */
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+.greyLine {
+  background-color: '#ECECEC';
+  border-width: 1px;
+  border-style: inset;
+}
+
+.mainFormContainer{
+  padding: 0px 20px;
+}
+
+.hr {
+  padding: 0px;
+}
+
+/** drawer margin based on material ui default theme (theme.mixins.toolbar) */
+.drawer{
+  display:flex;
+}
+
+@media (min-width:0px) and (orientation: landscape){
+  .drawer{
+  }
+}
+
+@media (min-width:600px) {
+  .drawer{
+  }
+}
+
+.banner{
+}
+
+section.fixedDashboard{
+  width: 100%;
+}
+
+section.conditionalDashboard {
+  height: 56px;
+}
+
+@media (min-width:0px) and (orientation: landscape){
+  section.conditionalDashboard{
+  height: 48px;
+}
+}
+
+@media (min-width:600px) {
+  section.conditionalDashboard{
+  height: 64px;
+}
+}
+
+div.drawer main.mainBody{
+  flex-grow: 2;
+  padding: 24px;
+  width: 100%;
+}
+
+main.mainBody section.margin{
+  padding: 0px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
+  display:flex;
+}
+
+.center-row{
+  align-items: center;
+  display:flex;
+}
+
+.center-column{
+  justify-content: center;
+  display:flex;
+}
+
+.row{
+  flex-direction: row;
+  display: flex;
+}
+
+.column{
+  flex-direction: column;
+  display: flex;
+}
+
+.padding{
+  padding: 20px;  
+}
+
+.paddingRow{
+  padding: 0px 20px;
+}
+
+.paddingColumn{
+  padding: 20px 0px;
+}
+
+.marginRow{
+  padding: 0px 20px;
+}
+
+.marginColumn{
+  padding: 20px 0px;
+}
+
+.tableGapVertical{
+  padding: 10px 0px;
+}
+
+.multipleItemsEnd{
+  justify-content: space-between;
+}
+
+.flexEnd{
+  justify-content: flex-end;
+  display: flex;
+}
+
+.multipleItemsMiddle{
+  justify-content: space-evenly;
+}
+
+.padding-side{
+  padding: 0px 20px;
+}
+
+.wrap-text{
+  overflow: hidden;
+}
+
+#transRefNum{
+  padding-top: 20px;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.topped {
+  position: fixed;
+  top: 20px;
+  /* bring your own prefixes */
+}
+
+.margin{
+  margin: 20px;
+}
+
+.margin-side{
+  margin: 0px 20px;
+}
+
+.placeholder-preview{
+  padding: 0px 10px;
+  border-width: 1px;
+  box-shadow: 1px 1px 5px;
+  border-radius: 15px;
+  border-style: solid;
+  cursor: pointer;
+}
